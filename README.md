@@ -47,13 +47,16 @@ View(us_contagious_diseases)
     + a. This new dataset contains rows concerning only Measles data. Hint: use `filter()` on the dataset, `dat`.
     + b. Add a new column to this dataset called `rate` using the `mutate()` function. To create your `rate` variable, you are invited to use the below equation which combines several other variables together, however you may decide to create your own `rate` variable. If you think of a new rate to try in your analysis, please feel free to try it and be sure to discuss it in your lab deliverable.
 
-  + $ rate = \frac{C*52}{Wr} / \frac{P}{100000} $, for 
-  + $Wr = weeks\_reporting$
-  + $C = count$
-  + $P = population$
+        + $rate = \frac{C*52}{Wr} / \frac{P}{100000}$, for 
+
+        + $Wr = weeks\_reporting$
+
+        + $C = count$
+
+        + $P = population$
       
-      + c. What kind of data is contained in the created rate column?
-      + d. In terms of its informational content, how could this column be useful in an analysis?
+    + c. What kind of data is contained in the created rate column?
+    + d. In terms of its informational content, how could this column be useful in an analysis?
 
 4. Because they became states recently, remove the two states (_Alaska_ and _Hawaii_) from your dataset. For this, create a variable for a new dataset called, `dat_measles_rate_lessTwoStates` from the `dat_measles_rate` dataset. The new dataset will not have rows pertaining to the two states. For this step, use the `filter()` function to remove _Alaska_ and _Hawaii_.
 
