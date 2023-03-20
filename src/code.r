@@ -33,4 +33,4 @@ View(us_contagious_diseases)
 # Add your code here
 # TODO
 
-# Note: Did leave your name to the top of this script?
+# Note: Did leave your name at the top of this script?
