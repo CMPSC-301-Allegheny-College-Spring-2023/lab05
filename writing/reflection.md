@@ -44,7 +44,7 @@ Add Your Name Here
 
 * Question from step 7.
 
-  + b. In clear and meaningful language, interrupt your results from the plot.
+  + b. In clear and meaningful language, interpret your results from the plot.
 
 	TODO
 	
