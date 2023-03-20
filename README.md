@@ -49,7 +49,7 @@ View(us_contagious_diseases)
 
         + $rate = \frac{C*52}{Wr} / \frac{P}{100000}$, for 
 
-        + $Wr = weeks\_reporting$
+        + $Wr = weeksReporting$
 
         + $C = count$
 
